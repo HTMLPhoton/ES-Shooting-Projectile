@@ -1,0 +1,6489 @@
+outfit "Drone Deployer"
+	category "Guns"
+	cost 1440000
+#	thumbnail "outfit/particle cannon"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "null"
+#		sound "particle"
+#		"fire effect" "pulse fire" 3
+#		"die effect" "pulse fire" 4
+#		"hit effect" "pulse impact" 5
+		"inaccuracy" .5
+		submunition combatDrone0
+		"velocity" 10
+		"lifetime" 1
+		"reload" 300
+		"firing energy" 8300
+		"firing heat" 4150
+	description "Frabracates and launch combat drones equipped with javalin pods."
+
+
+
+Drones
+
+outfit "combatDrone0"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone1"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone1"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone2"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone2"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone3"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone3"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone4"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone4"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone5"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone5"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone6"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone6"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone7"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone7"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone8"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone8"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone9"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone9"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone10"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone10"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone11"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone11"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone12"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone12"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone13"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone13"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone14"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone14"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone15"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone15"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone16"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone16"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone17"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone17"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone18"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone18"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone19"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone19"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone20"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone20"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone21"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone21"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone22"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone22"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone23"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone23"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone24"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone24"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone25"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone25"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone26"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone26"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone27"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone27"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone28"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone28"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone29"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone29"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone30"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone30"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone31"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone31"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone32"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone32"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone33"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone33"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone34"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone34"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone35"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone35"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone36"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone36"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone37"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone37"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone38"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone38"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone39"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone39"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone40"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone40"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone41"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone41"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone42"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone42"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone43"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone43"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone44"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone44"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone45"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone45"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone46"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone46"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone47"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone47"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone48"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone48"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone49"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone49"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone50"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone50"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone51"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone51"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone52"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone52"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone53"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone53"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone54"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone54"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone55"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone55"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone56"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone56"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone57"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone57"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone58"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone58"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone59"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone59"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone60"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone60"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone61"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone61"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone62"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone62"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone63"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone63"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone64"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone64"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone65"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone65"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone66"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone66"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone67"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone67"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone68"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone68"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone69"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone69"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone70"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone70"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone71"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone71"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone72"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone72"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone73"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone73"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone74"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone74"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone75"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone75"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone76"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone76"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone77"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone77"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone78"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone78"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone79"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone79"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone80"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone80"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone81"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone81"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone82"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone82"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone83"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone83"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone84"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone84"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone85"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone85"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone86"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone86"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone87"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone87"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone88"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone88"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone89"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone89"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone90"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone90"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone91"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone91"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone92"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone92"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone93"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone93"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone94"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone94"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone95"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone95"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone96"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone96"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone97"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone97"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone98"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone98"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone99"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone99"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone100"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone100"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone101"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone101"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone102"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone102"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone103"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone103"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone104"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone104"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone105"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone105"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone106"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone106"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone107"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone107"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone108"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone108"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone109"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone109"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone110"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone110"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone111"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone111"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone112"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone112"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone113"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone113"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone114"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone114"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone115"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone115"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone116"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone116"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone117"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone117"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone118"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone118"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone119"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone119"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone120"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone120"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone121"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone121"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone122"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone122"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone123"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone123"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone124"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone124"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone125"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone125"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone126"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone126"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone127"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone127"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone128"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone128"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone129"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone129"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone130"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone130"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone131"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone131"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone132"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone132"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone133"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone133"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone134"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone134"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone135"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone135"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone136"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone136"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone137"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone137"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone138"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone138"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone139"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone139"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone140"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone140"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone141"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone141"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone142"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone142"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone143"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone143"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone144"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone144"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone145"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone145"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone146"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone146"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone147"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone147"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone148"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone148"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone149"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone149"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone150"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone150"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone151"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone151"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone152"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone152"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone153"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone153"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone154"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone154"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone155"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone155"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone156"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone156"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone157"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone157"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone158"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone158"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone159"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone159"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone160"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone160"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone161"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone161"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone162"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone162"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone163"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone163"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone164"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone164"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone165"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone165"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone166"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone166"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone167"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone167"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone168"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone168"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone169"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone169"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone170"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone170"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone171"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone171"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone172"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone172"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone173"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone173"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone174"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone174"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone175"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone175"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone176"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone176"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone177"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone177"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone178"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone178"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone179"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone179"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone180"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone180"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone181"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone181"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone182"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone182"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone183"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone183"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone184"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone184"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone185"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone185"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone186"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone186"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone187"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone187"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone188"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone188"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone189"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone189"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone190"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone190"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone191"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone191"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone192"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone192"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone193"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone193"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone194"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone194"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone195"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone195"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone196"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone196"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone197"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone197"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone198"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone198"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone199"
+
+		"submunition" "comabtDroneShoot"
+
+outfit "combatDrone199"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 15
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+
+		"submunition" "combatDrone200"
+
+		"submunition" "comabtDroneShoot"
+
+
+
+
+
+outfit "combatDrone200"
+
+	weapon
+
+		sprite "projectile/combat-drone"
+
+			"frame rate" 1.2
+
+		"hit effect" "final explosion small"
+
+		lifetime 600
+
+		homing 3
+
+		turn 1.9517
+
+		"optical tracking" 0.4
+
+		"radar tracking" 0.9
+
+		acceleration 4.39
+
+		drag 0.59
+
+		"missile strength" 70
+
+		"inaccuracy" 0
+		"blast radius" 110
+		"shield damage" 1100
+		"hull damage" 550
+		"hit force" 825
+		
+
+
+
+
+outfit "comabtDroneShoot"
+	weapon
+		"shield damage" -48
+		"hull damage" -26
+		"hit force" -50
+		"missile strength" -3
+		submunition "comabtDroneProjectile"
+		"lifetime" 0
+
+outfit "comabtDroneProjectile"
+	weapon
+		sprite "projectile/javelin"
+		sound "javelin"
+		"hit effect" "tiny explosion"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 60
+		"reload" 15
+		"shield damage" 48
+		"hull damage" 26
+		"hit force" 50
+		"missile strength" 3

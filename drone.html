@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<h1>Drones</h1>
+<p id="Adun"></p>
+<script>
+function newLine (imput) {
+var para = document.createElement("p");
+var node = document.createTextNode(imput);
+para.appendChild(node);
+
+var element = document.getElementById("Adun");
+element.appendChild(para)
+}
+function newShot (shot) {
+newLine ('outfit "combatDrone' + shot + '"')
+newLine ('&weapon')
+newLine ('&&sprite "projectile/combat-drone"')
+newLine ('&&&"frame rate" 1.2')
+newLine ('&&"hit effect" "final explosion small"')
+newLine ('&&lifetime 15')
+newLine ('&&homing 3')
+newLine ('&&turn 1.9517')
+newLine ('&&"optical tracking" 0.4')
+newLine ('&&"radar tracking" 0.9')
+newLine ('&&acceleration 4.39')
+newLine ('&&drag 0.59')
+newLine ('&&"missile strength" 70')
+newLine ('&&"inaccuracy" 0')
+newLine ('&&"submunition" "combatDrone' + (shot + 1) + '"')
+newLine ('&&"submunition" "comabtDroneShoot"')
+}
+for (i = 0; i < 200; i ++) {
+newShot (i)
+}
+</script>
+
+</body>
+</html>
